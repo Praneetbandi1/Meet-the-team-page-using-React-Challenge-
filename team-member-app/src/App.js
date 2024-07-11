@@ -1,12 +1,14 @@
 import './App.css';
 import Gallery from './components/Gallery/Gallery';
+import Header from './components/Header/Header';
+import {Footer} from './components/Header/Header';
 
 
 const galleryList=  [
   {
    name: "John Smith",
    role: "Manager",
-   photo: "/image1"
+   photo: "./images/manager.jpg"
   },
 
   { name:"  Harold Kilpatrick ",
@@ -24,14 +26,11 @@ const galleryList=  [
 
 
 function App() {
-return (
-  <div className="App">
-
-
-    <Gallery galleryList={galleryList} />
-    
-
-
+  return (
+    <div className="App">
+      <Header className="App-header"/>
+      <Gallery galleryList={galleryList} />
+      <Footer className="App-footer"/>
       
     </div>
   );
