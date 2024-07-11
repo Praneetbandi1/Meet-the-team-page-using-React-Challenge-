@@ -8,7 +8,7 @@ const galleryList=  [
   {
    name: "John Smith",
    role: "Manager",
-   photo: "./images/manager.jpg"
+   photo: "team-member-app/src/images/manager.jpg"
   },
 
   { name:"  Harold Kilpatrick ",
