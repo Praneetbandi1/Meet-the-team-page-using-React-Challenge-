@@ -1,0 +1,1 @@
+his project is about creating a page to showcase the profiles of team members. There should be a gallery and profile component that includes the name, role, and photo. The footer is within the header component.
